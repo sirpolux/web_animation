@@ -1,0 +1,21 @@
+/*
+
+
+*/
+
+
+.wrapper{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin: 300px auto;
+}
+
+.inner{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    transform:translate(-100px) scale(1.2) rotate(45deg);
+}
+
+
