@@ -1,0 +1,28 @@
+/*
+scale->reseize element in 2d space
+transform: scale(): -> syntax
+
+syntantic sugar
+transform:scaleX(1.2)
+transform:scaleY(1.2)
+           scale(1.2)
+           scale(1.2, 0.9)
+*/
+
+
+.wrapper{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.inner{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    transform: scale(2, 2);
+}
+
+
