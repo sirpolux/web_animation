@@ -2,11 +2,74 @@
     display: inline-block;
     background-color:#eee6d8;
     padding: 10px;
+    width: 270px;
+    height: 360px;
+    border-radius: 5px;
+    box-shadow: 8px 14px 14px -10px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+  
 }
+
+.polaroid-card img{
+    display: inline-block;
+    background-color:#eee6d8;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+
+/* .polaroid-card img:hover{
+    transform: scale(2);
+} */
 
 .polaroid-card-caption{
     text-align: center;
-    font-family: sans-serif;
+    font-family:"Market-face" sans-serif;
     font-size: 12px;
     margin-top: 10px;
 }
+
+.polaroid-gallery{
+    text-align: center;
+}
+
+.polaroid-card:nth-of-type(even){
+    transform:  rotate(8deg);
+}
+
+.polaroid-card:nth-of-type(odd){
+    transform: rotate(-9deg);
+}
+.polaroid-card:nth-of-type(even)::before{
+    background-color: rgba(222, 220, 200, 0.66);
+    display: block;
+    content: '';
+    width: 100px;
+    height: 25px;
+    transform: rotate(-24deg) translate(-30px, -25px);
+}
+
+
+.polaroid-card:nth-of-type(odd)::before{
+    background-color: rgba(222, 220, 200, 0.66);
+    display: block;
+    content: '';
+    width: 100px;
+    height: 25px;
+    transform: rotate(25deg) translate(180px,-90px);
+}
+body{
+    background-image: url('/images/background2.jpg');
+    background-size: cover;
+}
+
+/* .polaroid-card:hover {
+    transform: scale(1.2) !important; 
+} */
+
+.polaroid-card:hover {
+    transform: scale(1.2);
+}
+
