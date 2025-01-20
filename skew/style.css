@@ -1,0 +1,30 @@
+/*
+scale->tilting elements in 2d space
+transform: skew(): -> syntax
+syntantic:
+skew(ax,ay)
+skewX(a)
+skewY(a)
+
+*/
+
+
+.wrapper{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.inner{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    /* transform: skew(40deg); */
+    transform: skew(10deg, 20deg)
+}
+
+
+
+
