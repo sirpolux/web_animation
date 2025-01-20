@@ -1,0 +1,25 @@
+/*
+transform-origin -> changing the transform origin
+transform-origin: center center | 50% 50% 
+transform-origin: transform item position in 2d space
+
+*/
+
+
+.wrapper{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin: 300px auto;
+}
+
+.inner{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    /* transform-origin:0% 0%; */
+    transform-origin: top right;
+    transform: rotate(45deg);
+}
+
+

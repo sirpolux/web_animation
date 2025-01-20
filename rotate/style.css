@@ -24,7 +24,7 @@ syntantic:
     width: 300px;
     height: 300px;
     border: 1px solid black;
-    transform: rotate(0.7turn);
+    transform: rotate(60deg);
 }
 
 
