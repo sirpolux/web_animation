@@ -3,8 +3,12 @@
 
 transition-property: property-name, property name, property name;
 transistion-duration: duration
-transition-timing-function: timing function
+transition-timing-function: timing function seconds or miliseconds s|ms
 transition-delay: delay
+
+defining different transition properties and duration for different elements
+transition-property: width, height, background-colour;
+transition-duration: 2s, 3s, 400ms;
 
 shorthand
 transition: [property] [duration] [timing function] [delay]
