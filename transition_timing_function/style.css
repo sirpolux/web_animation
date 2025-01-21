@@ -1,0 +1,29 @@
+/* transition-timing-function: predified keywords
+-> ease
+-> ease-in
+-> ease-out
+-> ease-in-out
+-> linear
+-> step-start
+-> step-end
+ */
+
+
+.transition{
+    color:white;
+    background-color: red;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    transition-property: margin-left;
+    transition-duration: 2s;
+}
+
+.ease{
+    transition-timing-function: ease;
+}
+
+.container:hover .transition{
+    margin-left: 500px;
+    margin-top: 200px;
+}
