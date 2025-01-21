@@ -23,6 +23,30 @@
     transition-timing-function: ease;
 }
 
+.ease-in{
+    transition-timing-function: ease-in;
+}
+
+
+.ease-out{
+    transition-timing-function: ease-out;
+}
+
+.ease-in-out{
+    transition-timing-function: ease-in-out;
+}
+
+.linear{
+    transition-timing-function: linear;
+}
+
+.step-end{
+    transition-timing-function: step-end;
+}
+.step-start{
+    transition-timing-function: step-start;
+}
+
 .container:hover .transition{
     margin-left: 500px;
 }
